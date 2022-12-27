@@ -14,14 +14,14 @@ public class Usuario {
     
     private String pseudonimo;
     private String correo;
-    private String contraseña;
+    private String contrasena;
     @DBRef
     private Rol rol;
 
-    public Usuario(String pseudonimo, String correo, String contraseña){
+    public Usuario(String pseudonimo, String correo, String contrasena){
         this.pseudonimo = pseudonimo;
         this.correo = correo;
-        this.contraseña = contraseña;
+        this.contrasena = contrasena;
 
     }
 
@@ -45,11 +45,11 @@ public class Usuario {
         this.correo = correo;
     }
 
-    public String getContraseña(){
-        return contraseña;
+    public String getContrasena(){
+        return contrasena;
     }
 
-    public void setContraseña(String contraseña){
-        this.contraseña = contraseña;
+    public void setContrasena(String contrasena){
+        this.contrasena = contrasena;
     }
 }
